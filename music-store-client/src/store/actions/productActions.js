@@ -1,9 +1,11 @@
 import { FETCH_PRODUCTS } from './types';
 import axios from 'axios';
+import gql from 'graphql-tag';
+import { apollo } from 'react-apollo';
 
 
 const productsAPI = "http://localhost:8001/api/products";
-
+//const productsAPI = "http://localhost:60755";
 
 const compare = {
   'lowestprice': (a, b) => {
@@ -24,6 +26,50 @@ const compare = {
 
 export const fetchProducts = (filters, sortBy, callback) => dispatch => {
 
+//   const getTickets = gql`
+//   query query {
+//   	musicTickets {
+//       id
+// 			description
+//       title
+//     }
+// }
+// `;
+
+
+fetch('http://localhost:60755', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+  },
+  body: JSON.stringify({query: `{
+  	musicTickets {
+      id
+			description
+      title
+    }
+}`})
+})
+  .then(r => r.json())
+  .then(data => console.log('data returned:', data));
+
+// const getUserQueryOptions = {
+  
+  
+//   props: ({
+//     ownProps,
+//     get: { loading, getUser, getRole, refetch },
+//   }) => {
+//     return {
+      
+//       refetchUser: refetch,
+//     };
+//   },
+// };
+  
+//apollo(getTickets);
+  
   axios.get(productsAPI)
     .then(res => {
       let { products } = res.data;

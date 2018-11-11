@@ -1,0 +1,6 @@
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\bin\Debug\netcoreapp2.1\MusicStore.GraphQL.deps.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\bin\Debug\netcoreapp2.1\MusicStore.GraphQL.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\obj\Debug\netcoreapp2.1\MusicStore.GraphQL.csprojAssemblyReference.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\obj\Debug\netcoreapp2.1\MusicStore.GraphQL.csproj.CoreCompileInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\obj\Debug\netcoreapp2.1\MusicStore.GraphQL.AssemblyInfoInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.GraphQL\obj\Debug\netcoreapp2.1\MusicStore.GraphQL.AssemblyInfo.cs
