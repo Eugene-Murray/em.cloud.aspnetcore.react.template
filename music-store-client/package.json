@@ -8,6 +8,8 @@
     "apollo-link-error": "^1.1.1",
     "apollo-link-http": "^1.5.5",
     "apollo-link-schema": "^1.1.1",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
     "axios": "^0.18.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
@@ -15,6 +17,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
+    "react-apollo": "^2.2.4",
     "react-scripts": "^1.1.5",
     "redux": "^3.7.2",
     "redux-thunk": "^2.3.0"

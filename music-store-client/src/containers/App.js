@@ -3,7 +3,7 @@ import './App.css';
 
 import { Provider } from 'react-redux';
 import { ApolloProvider } from 'react-apollo';
-import apolloClient from './services/apollo';
+import apolloClient from '../services/apollo';
 
 import Shelf from '../components/shelf/Shelf';
 import Header from '../components/Header';
