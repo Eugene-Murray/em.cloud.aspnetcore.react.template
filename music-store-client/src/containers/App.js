@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { Provider } from 'react-redux';
-
+import { ApolloProvider } from 'react-apollo';
+import apolloClient from './services/apollo';
 
 import Shelf from '../components/shelf/Shelf';
 import Header from '../components/Header';
@@ -16,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-      
+        <ApolloProvider client={apolloClient}>
         <div className="App">
         <Header />
           <main>
@@ -25,6 +26,7 @@ class App extends Component {
           <Footer />
           <FloatCart />
         </div>
+        </ApolloProvider>
       </Provider>
     )
   }

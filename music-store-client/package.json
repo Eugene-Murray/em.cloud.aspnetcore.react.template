@@ -1,6 +1,13 @@
 {
   "name": "react-react-graphql",
   "dependencies": {
+    "apollo-cache-inmemory": "^1.3.9",
+    "apollo-client": "^2.4.5",
+    "apollo-link": "^1.2.3",
+    "apollo-link-context": "^1.0.9",
+    "apollo-link-error": "^1.1.1",
+    "apollo-link-http": "^1.5.5",
+    "apollo-link-schema": "^1.1.1",
     "axios": "^0.18.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
