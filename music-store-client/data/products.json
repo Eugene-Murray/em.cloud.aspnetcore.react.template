@@ -1,0 +1,226 @@
+{
+  "products": [
+    {
+      "id": 12,
+      "sku": "38529866740_2f1f79bf29_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Small"],
+      "style": "Black with custom print",
+      "price": 10.9,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 13,
+      "sku": "40588551610_05d596e62a_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["M"],
+      "style": "Front print and paisley print",
+      "price": 29.45,
+      "installments": 5,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 14,
+      "sku": "42083612055_9401bf139d_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Front tie dye print",
+      "price": 9.0,
+      "installments": 3,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 10,
+      "sku": "32564696410_cb8c7d2bcf_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Small"],
+      "style": "",
+      "price": 49.0,
+      "installments": 9,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 11,
+      "sku": "23042979581_38b788209d_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["X", "L"],
+      "style": "Wine",
+      "price": 13.25,
+      "installments": 3,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 16,
+      "sku": "22639610009_575793e3f1_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Small"],
+      "style": "Grey",
+      "price": 75.0,
+      "installments": 5,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 0,
+      "sku": "23031833795_b9260dca79_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Medium"],
+      "style": "Branco com listras pretas",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 1,
+      "sku": "5847964701_bed80cd28b_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Medium"],
+      "style": "Preta com listras brancas",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": "5847964461_b593682148_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["X", "L"],
+      "style": "Branco com listras pretas",
+      "price": 14.9,
+      "installments": 7,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": "6294655394_04df6f22e2_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["X", "L"],
+      "style": "Preto com listras brancas",
+      "price": 14.9,
+      "installments": 7,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": "6294137271_601f1775eb_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Medium"],
+      "style": "Branco com listras pretas",
+      "price": 25.9,
+      "installments": 12,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": "3831341192_90ce2746e5_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["X", "L", "XL"],
+      "style": "Preto",
+      "price": 10.9,
+      "installments": 9,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": "2621898120_cd40e7608f_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Large"],
+      "style": "Branco",
+      "price": 49.9,
+      "installments": 0,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 7,
+      "sku": "2619610596_d4c4ddecb7_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Large"],
+      "style": "Preto com listras brancas",
+      "price": 22.5,
+      "installments": 4,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": "2619610990_d9dbf2b879_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Large"],
+      "style": "Azul escuro",
+      "price": 18.7,
+      "installments": 4,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 9,
+      "sku": "32564701750_a741106361_z",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "availableSizes": ["Massive"],
+      "style": "",
+      "price": 134.9,
+      "installments": 5,
+      "currencyId": "GBP",
+      "currencyFormat": "£",
+      "isFreeShipping": true
+    }
+  ]
+}
