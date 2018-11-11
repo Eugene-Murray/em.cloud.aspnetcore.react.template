@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Orders.Models;
+using MusicStore.Models;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Orders.Services
+namespace MusicStore.Services
 {
     public class OrderService : IOrderService
     {

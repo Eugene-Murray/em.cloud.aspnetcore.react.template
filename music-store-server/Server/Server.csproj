@@ -5,14 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="2.0.0" />
-    <PackageReference Include="GraphQL.Server.Transports.WebSockets" Version="2.0.0" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="3.2.0" />
+    <PackageReference Include="GraphQL.Server.Transports.WebSockets" Version="3.2.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Orders\Orders.csproj" />
+    <ProjectReference Include="..\Orders\MusicStore.csproj" />
   </ItemGroup>
 
 </Project>

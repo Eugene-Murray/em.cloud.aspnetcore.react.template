@@ -1,0 +1,8 @@
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\MusicStore.csproj.CoreCompileInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\MusicStore.AssemblyInfoInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\MusicStore.AssemblyInfo.cs
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\MusicStore.deps.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\MusicStore.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\MusicStore.pdb
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\MusicStore.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\MusicStore.pdb

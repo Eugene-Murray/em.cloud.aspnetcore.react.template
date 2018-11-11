@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "db9389882ee174464a8d386ed7e1f8b506be00e9"
+    "signature": "4e98a3986235f9ac4706a527df9ab1489e1b585d"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "Orders/1.0.0": {
         "dependencies": {
-          "GraphQL": "2.0.0-alpha-832",
+          "GraphQL": "2.3.0",
           "NETStandard.Library": "2.0.3",
           "System.Reactive": "3.1.1"
         },
@@ -17,18 +17,18 @@
           "Orders.dll": {}
         }
       },
-      "GraphQL/2.0.0-alpha-832": {
+      "GraphQL/2.3.0": {
         "dependencies": {
           "GraphQL-Parser": "3.0.0",
           "Newtonsoft.Json": "10.0.3",
+          "System.Buffers": "4.5.0",
           "System.Reactive.Core": "3.1.1",
-          "System.Reactive.Linq": "3.1.1",
-          "System.Reflection.TypeExtensions": "4.4.0"
+          "System.Reactive.Linq": "3.1.1"
         },
         "runtime": {
           "lib/netstandard2.0/GraphQL.dll": {
-            "assemblyVersion": "2.0.0.832",
-            "fileVersion": "2.0.0.832"
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
           }
         }
       },
@@ -55,7 +55,7 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -89,6 +89,14 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.3.21018"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
           }
         }
       },
@@ -168,7 +176,7 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -210,7 +218,7 @@
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -301,7 +309,7 @@
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.4.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
@@ -448,11 +456,15 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.TypeExtensions/4.4.0": {
+      "System.Reflection.TypeExtensions/4.3.0": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.TypeExtensions.dll": {
-            "assemblyVersion": "4.1.2.0",
-            "fileVersion": "4.6.25519.3"
+          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.24705.1"
           }
         }
       },
@@ -649,12 +661,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "GraphQL/2.0.0-alpha-832": {
+    "GraphQL/2.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MuDPI1Onyj+gNQGrvJNVBAO5r/dIm0pUwyzGslT44JeHq7XMhZ8/haZDj5ghUNk//tAWOsHnDF6esU4etLaHkw==",
-      "path": "graphql/2.0.0-alpha-832",
-      "hashPath": "graphql.2.0.0-alpha-832.nupkg.sha512"
+      "sha512": "sha512-FdkDe7WzmYcZjXcUtU7agFevHI0zNJdV4qaOIyQpDV16aWP9miTJALpmEcJkT9zy9cZQL16aEbRActnXXTexzA==",
+      "path": "graphql/2.3.0",
+      "hashPath": "graphql.2.3.0.nupkg.sha512"
     },
     "GraphQL-Parser/3.0.0": {
       "type": "package",
@@ -694,9 +706,16 @@
     "Newtonsoft.Json/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+      "sha512": "sha512-wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpHYjjtyTEpzMwtSQBWdVc3dPjLdQtvyUg6fBlBqcLl1r2Y7gDG/W/enAYOB98nG3oD3Q153Y2FBO8JDWd+0Xw==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -820,35 +839,35 @@
     "System.Reactive/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jdLBDt+bTs26kUA7R0P3JPYnYt2NKvyUIBW4aZb7JUQLGTfdBebdzKtY9pMTXrjj/QwRZSyKBqfGXzO4Mh7Q0Q==",
+      "sha512": "sha512-elkQdVQoBVX39BHrYHMc3Rnbb7a9qBJIwNCvhq1psPMOEPo62/VHB0lJu671x3fOrGL4V/85n6p2Az1tw7Kvmg==",
       "path": "system.reactive/3.1.1",
       "hashPath": "system.reactive.3.1.1.nupkg.sha512"
     },
     "System.Reactive.Core/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s6kQTsHXXloJeT0Jo3MPThoRlc9LVGrHZ6rQo8Dvx3klnaIknQBy0/NjsUSAnGZHdCsJzQEnH08X2BG06ib1ZA==",
+      "sha512": "sha512-CKWC+UP1aM75taNX+sTBn2P97uHIUjKxq+z45iy7P91QGFqNFleR2tsqIC76HMVvYl7o8oWyMiycdsc9rC1Z/g==",
       "path": "system.reactive.core/3.1.1",
       "hashPath": "system.reactive.core.3.1.1.nupkg.sha512"
     },
     "System.Reactive.Interfaces/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KSnc+j8WQLS2elGyxdqonTxpdtreANwhfD5kBw/m9bV0YcjL2DjgQg46F0HIOTEN45qGU1MN1MFX5fHbYnVEtA==",
+      "sha512": "sha512-aNVY3QoRznGFeQ+w+bMqhD8ElNWoyYq+7XTQIoxKKjBOyTOjUqIMEf1wvSdtwC4y92zg2W9q38b4Sr6cYNHVLg==",
       "path": "system.reactive.interfaces/3.1.1",
       "hashPath": "system.reactive.interfaces.3.1.1.nupkg.sha512"
     },
     "System.Reactive.Linq/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Hc3HKFiNWLoo2Qa+8daQIsQQYRxWfhsWhI9CW9NejTwVX9w72+1DDK2J/t1ezk7a45GRIvcPo1bMrZtpMEHO1Q==",
+      "sha512": "sha512-HwsZsoYRg51cLGBOEa0uoZ5+d4CMcHEg/KrbqePhLxoz/SLA+ULISphBtn3woABPATOQ6j5YgGZWh4jxnJ3KYQ==",
       "path": "system.reactive.linq/3.1.1",
       "hashPath": "system.reactive.linq.3.1.1.nupkg.sha512"
     },
     "System.Reactive.PlatformServices/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nWouPlttrYpZ0TALhhUqfxOIzs3ZA1ZwfHTlnP0SbuGaszKp+5kopaqyZ1sRmdlo8QXkfb+sRrDOA2hhxOpaGw==",
+      "sha512": "sha512-jCJ3iGDLb4duOxZ/Uo3O7PssWE48uRp0fw92AlIwrMNaZRUmZNkZyqbl0nUT+joFARBYun8XiVIDQreMJKBedA==",
       "path": "system.reactive.platformservices/3.1.1",
       "hashPath": "system.reactive.platformservices.3.1.1.nupkg.sha512"
     },
@@ -894,12 +913,12 @@
       "path": "system.reflection.primitives/4.3.0",
       "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.TypeExtensions/4.4.0": {
+    "System.Reflection.TypeExtensions/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
-      "path": "system.reflection.typeextensions/4.4.0",
-      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+      "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
+      "path": "system.reflection.typeextensions/4.3.0",
+      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
     },
     "System.Resources.ResourceManager/4.3.0": {
       "type": "package",
@@ -946,7 +965,7 @@
     "System.Runtime.Serialization.Formatters/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KT591AkTNFOTbhZlaeMVvfax3RqhH1EJlcwF50Wm7sfnBLuHiOeZRRKrr1ns3NESkM20KPZ5Ol/ueMq5vg4QoQ==",
+      "sha512": "sha512-wswubXypANKo8I2G8i8Ce3Bwqzda/gPI+XGdpmuFuIFTvm3haIx8YkjyO7wLbJfEptHCaide41vqHfeyHObuCg==",
       "path": "system.runtime.serialization.formatters/4.3.0",
       "hashPath": "system.runtime.serialization.formatters.4.3.0.nupkg.sha512"
     },
@@ -1009,7 +1028,7 @@
     "System.Xml.XmlDocument/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
+      "sha512": "sha512-bzL5f1B3+clX363U2EXzdw6bbG3myl9EEg5ZEMF2T86cJgTeSvIJZf0AoC0pfbPSn25HKx8T3f84tvQTyADgeA==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     }

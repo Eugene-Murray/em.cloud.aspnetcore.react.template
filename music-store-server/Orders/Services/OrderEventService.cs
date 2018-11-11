@@ -1,4 +1,4 @@
-﻿using Orders.Models;
+﻿using MusicStore.Models;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Text;
 
-namespace Orders.Services
+namespace MusicStore.Services
 {
     public class OrderEventService : IOrderEventService
     {

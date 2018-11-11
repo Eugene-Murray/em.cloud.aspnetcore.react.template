@@ -1,10 +1,10 @@
 ﻿using GraphQL.Types;
-using Orders.Models;
+using MusicStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Orders.Schema
+namespace MusicStore.Schema
 {
     public class CustomerType : ObjectGraphType<Customer>
     {

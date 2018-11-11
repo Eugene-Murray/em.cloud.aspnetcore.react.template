@@ -114,3 +114,11 @@ C:\Users\eugen\Documents\Dev\2019\packt\em.cloud.aspnetcore.react.template\Order
 C:\Users\eugen\Documents\Dev\2019\packt\em.cloud.aspnetcore.react.template\Orders-GraphQL\Orders\obj\Debug\netstandard2.0\Orders.AssemblyInfo.cs
 C:\Users\eugen\Documents\Dev\2019\packt\em.cloud.aspnetcore.react.template\Orders-GraphQL\Orders\obj\Debug\netstandard2.0\Orders.dll
 C:\Users\eugen\Documents\Dev\2019\packt\em.cloud.aspnetcore.react.template\Orders-GraphQL\Orders\obj\Debug\netstandard2.0\Orders.pdb
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\Orders.csproj.CoreCompileInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\Orders.AssemblyInfoInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\Orders.AssemblyInfo.cs
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\Orders.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\obj\Debug\netstandard2.0\Orders.pdb
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\Orders.deps.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\Orders.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\Orders\bin\Debug\netstandard2.0\Orders.pdb

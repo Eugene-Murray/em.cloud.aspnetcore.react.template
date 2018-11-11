@@ -1,12 +1,12 @@
 ﻿using GraphQL;
 using GraphQL.Types;
-using Orders.Models;
-using Orders.Services;
+using MusicStore.Models;
+using MusicStore.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Orders.Schema
+namespace MusicStore.Schema
 {
     public class OrdersMutation : ObjectGraphType<object>
     {

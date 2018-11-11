@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Orders.Models
+namespace MusicStore.Models
 {
     public class OrderCreateInput
     {

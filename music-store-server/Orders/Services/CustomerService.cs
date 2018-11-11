@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Orders.Models;
+using MusicStore.Models;
 
-namespace Orders.Services
+namespace MusicStore.Services
 {
     public class CustomerService : ICustomerService
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using GraphQL.Types;
-using Orders.Models;
+using MusicStore.Models;
 
-namespace Orders.Schema
+namespace MusicStore.Schema
 {
     public class OrderEventType : ObjectGraphType<OrderEvent>
     {

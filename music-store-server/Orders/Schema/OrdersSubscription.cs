@@ -1,14 +1,14 @@
 ﻿using GraphQL.Types;
 using GraphQL.Subscription;
 using GraphQL.Resolvers;
-using Orders.Services;
-using Orders.Models;
+using MusicStore.Services;
+using MusicStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Reactive.Linq;
 
-namespace Orders.Schema
+namespace MusicStore.Schema
 {
     public class OrdersSubscription : ObjectGraphType<object>
     {
