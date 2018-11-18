@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "music-store-server", "music-store-server\music-store-server.csproj", "{1D358950-8E52-4853-9989-97E17C2E3104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStore.Server", "MusicStore.Server\MusicStore.Server.csproj", "{1D358950-8E52-4853-9989-97E17C2E3104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStore.GraphQL", "MusicStore.GraphQL\MusicStore.GraphQL.csproj", "{6B48A951-10D0-4896-80AB-E1CA6CB324B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStore.GraphQL", "MusicStore.GraphQL\MusicStore.GraphQL.csproj", "{6B48A951-10D0-4896-80AB-E1CA6CB324B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

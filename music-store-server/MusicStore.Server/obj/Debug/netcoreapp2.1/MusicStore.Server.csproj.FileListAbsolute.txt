@@ -1,0 +1,17 @@
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.Server.deps.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.Server.runtimeconfig.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.Server.runtimeconfig.dev.json
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.Server.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.Server.pdb
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.GraphQL.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\bin\Debug\netcoreapp2.1\MusicStore.GraphQL.pdb
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.csprojAssemblyReference.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.csproj.CoreCompileInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.RazorAssemblyInfo.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.RazorAssemblyInfo.cs
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.AssemblyInfoInputs.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.AssemblyInfo.cs
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.RazorTargetAssemblyInfo.cache
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.csproj.CopyComplete
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.dll
+D:\code\my_code\2019\packt\em.cloud.aspnetcore.react.template\music-store-server\MusicStore.Server\obj\Debug\netcoreapp2.1\MusicStore.Server.pdb

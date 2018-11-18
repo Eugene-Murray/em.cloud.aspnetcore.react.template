@@ -1,20 +1,20 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "b853f515ba1fee81f82ea67e263f6da9581c1b48"
+    "signature": "5ad925ce2554bc54f1d84d9e94a4dfd12168e4f9"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "MusicStore.GraphQL/1.0.0": {
         "dependencies": {
-          "GraphQL": "2.3.0"
+          "GraphQL": "2.4.0"
         },
         "runtime": {
           "MusicStore.GraphQL.dll": {}
         }
       },
-      "GraphQL/2.3.0": {
+      "GraphQL/2.4.0": {
         "dependencies": {
           "GraphQL-Parser": "3.0.0",
           "Newtonsoft.Json": "10.0.3",
@@ -24,8 +24,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/GraphQL.dll": {
-            "assemblyVersion": "2.3.0.0",
-            "fileVersion": "2.3.0.0"
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
           }
         }
       },
@@ -459,12 +459,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "GraphQL/2.3.0": {
+    "GraphQL/2.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FdkDe7WzmYcZjXcUtU7agFevHI0zNJdV4qaOIyQpDV16aWP9miTJALpmEcJkT9zy9cZQL16aEbRActnXXTexzA==",
-      "path": "graphql/2.3.0",
-      "hashPath": "graphql.2.3.0.nupkg.sha512"
+      "sha512": "sha512-xklPUEchLDjQicQHgJQoVJG5V9bHzAnF2JyY+BW3Y+3gVrNHcodtOhW0eROWV8j1xoAdnUCjYa5OBwuB1nOxSA==",
+      "path": "graphql/2.4.0",
+      "hashPath": "graphql.2.4.0.nupkg.sha512"
     },
     "GraphQL-Parser/3.0.0": {
       "type": "package",
