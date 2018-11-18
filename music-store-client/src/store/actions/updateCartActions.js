@@ -24,8 +24,8 @@ export const updateCart = (cartProducts) => dispatch => {
     productQuantity,
     installments,
     totalPrice,
-    currencyId: 'USD',
-    currencyFormat: '$',
+    currencyId: 'GBP',
+    currencyFormat: '£',
   }
 
   persistentCart().persist(JSON.stringify(cartProducts));
