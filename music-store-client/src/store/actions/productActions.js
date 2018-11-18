@@ -36,8 +36,7 @@ export const fetchProducts = (filters, sortBy, callback) => dispatch => {
 // }
 // `;
 
-
-fetch('http://localhost:60755', {
+fetch('https://localhost:44319/graphql', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

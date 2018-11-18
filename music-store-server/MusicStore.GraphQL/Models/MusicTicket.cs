@@ -6,10 +6,10 @@ namespace MusicStore.GraphQL.Models
 {
     public class MusicTicket
     {
-        public MusicTicket(int id, string sku, string title, string description, string venuSize, double price, string currencyId, string currencyFormat, bool isFreeShipping)
+        public MusicTicket(int id, string SKU, string title, string description, string venuSize, double price, string currencyId, string currencyFormat, bool isFreeShipping)
         {
             Id = id;
-            SKU = sku;
+            sku = SKU;
             Title = title;
             Description = description;
             VenuSize = venuSize;
@@ -20,7 +20,7 @@ namespace MusicStore.GraphQL.Models
         }
 
         public int Id { get; }
-        public string SKU { get; }
+        public string sku { get; }
         public string  Title { get; }
         public string Description { get; }
         public string VenuSize { get; }

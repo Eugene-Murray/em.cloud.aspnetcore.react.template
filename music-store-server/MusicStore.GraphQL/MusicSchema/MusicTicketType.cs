@@ -12,7 +12,7 @@ namespace MusicStore.GraphQL.MusicSchema
         public MusicTicketType(IMusicTicketService musicTicket)
         {
             Field(o => o.Id);
-            Field(o => o.SKU);
+            Field(o => o.sku);
             Field(o => o.Title);
             Field(o => o.Description);
             Field(o => o.VenuSize);
